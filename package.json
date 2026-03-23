@@ -1,0 +1,18 @@
+{
+  "name": "library-recommendation-engine",
+  "version": "1.0.0",
+  "description": "Offline SQLite-based Intelligent Library Recommendation Engine",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
